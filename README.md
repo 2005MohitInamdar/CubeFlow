@@ -1,8 +1,7 @@
-# Neon Wireframe AR Builder 🪐
+# CubeFlow 
 
-A lightweight, real-time 3D wireframe hologram builder that runs directly inside your webcam feed using computer vision—no heavy 3D engines required. 
-
-This project maps real-time hand gestures and depth estimation to a custom localized 3D workspace, allowing you to manipulate and build neon voxel structures out of thin air. 
+A lightweight, real-time 3D wireframe hologram builder that runs directly inside your webcam feed using computer vision no heavy 3D engines required. 
+ 
 
 ---
 
@@ -42,7 +41,6 @@ Instead of abstracting the engine mechanics to Unity or Three.js, the core graph
 
 * **Zero-GPU Requirement:** Optimized matrix operations mean this engine runs smoothly at 60 FPS on basic, everyday integrated-graphics laptops.
 * **Hybrid Fallback Mode:** Automatically detects if a webcam is missing or disconnected and seamlessly ports the workspace controls to interactive mouse vectors.
-* **Cyberpunk HUD Overlay:** Features a high-contrast industrial diagnostic layout rendered natively over Pygame surface layers.
 
 ---
 
@@ -52,5 +50,21 @@ Get the environment running locally in less than two minutes:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/neon-ar-builder.git](https://github.com/YOUR_USERNAME/neon-ar-builder.git)
-   cd neon-ar-builder
+   git clone https://github.com/2005MohitInamdar/CubeFlow.git
+
+2. **Create a virtual environment**
+   ```bash
+   python -m venv venv
+
+3. **Activate your virtual environment**
+   ```bash
+   venv/Scripts/activate
+   
+5. **Install python packages**
+   ```bash
+   pip install -r requirements.txt
+
+6. **Run the python program**
+   ```bash
+   python main.py
+
